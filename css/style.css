@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+    font-family: 'Promt', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: black;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+h1.head{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+}
+
+p{
+    margin-top: 5vw;
+    font-size: 30px;
+}
+
+.color1{
+    background: #FF7B54;
+}
+
+.color2{
+    background: #FFB26B;
+}
+
+.color3{
+    background: #FFD56F;
+}
+
+.color4{
+    background: #939B62;
+}
+
+.color5{
+    background: #EB455F;
+}
+
+.color6{
+    background: #FCFFE7;
+}
+
+.color7{
+    background: #BAD7E9;
+}
+
+.color8{
+    background: #2B3467;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 150px;
+}
+
+.wave .shape-fill {
+    fill: #ff7b54;
+}
+
+.arch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.arch svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 363px;
+}
+
+.arch .shape-fill {
+    fill: #ffb26b;
+}
+
+.wave-full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-full svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.wave-full .shape-fill {
+    fill: #ffd56f;
+}
+
+.spacer {
+    aspect-ratio: 600/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.layer1{
+    background-image: url('../layers/layer1.svg');
+}
+
+.color5{
+    margin-top: 80px;
+    z-index: -2;
+}
+
+.layer2{
+    background-image: url('../layers/layer2.svg');
+}
+
+.color6{
+    margin-top: 140px;
+    z-index: -2;
+}
+
+.layer3{
+    background-image: url('../layers/layer3.svg');
+}
+
+.color7{
+    margin-top: 140px;
+    z-index: -2;
+}
+
+.layer4{
+    background-image: url('../layers/layer4.svg');
+}
+
+.color8{
+    margin-top: 140px;
+    z-index: -2;
+}
+
+.blob-motion{
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-20%);
+}
+
+.circle{
+    position: absolute;
+    z-index: -2;
+    display: flex;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.blobs{
+    aspect-ratio: 960/350;
+    background-position: center;
+    position: absolute;
+    z-index: -2;
+    display: flex;
+    transform: translateY(-20%);
+}
