@@ -2,8 +2,8 @@
 
 This is Curvaceous simple landing page using tools like
 
-Website link 
-
+Website link
+https://curves-in-css.netlify.app/
 
 Shapedivider
 https://www.shapedivider.app/
