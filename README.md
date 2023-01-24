@@ -1,7 +1,8 @@
-# Curves in CSS using Shapedivider and Haikei
+# Curves using Shapedivider and Haikei
 
 This is Curvaceous simple landing page using tools like
-website link 
+
+Website link 
 
 
 Shapedivider
